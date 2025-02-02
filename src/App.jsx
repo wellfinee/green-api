@@ -120,9 +120,8 @@ export default function App() {
             onChange={(e) => setApiToken(e.target.value)}
           />
           <Input
-            className="focus:ring-yellow-500"
             placeholder="Phone Number"
-            className={theme === "dark" ? "placeholder-gray-400" : "placeholder-gray-600"}
+            className={theme === "dark" ? "placeholder-gray-400 focus:ring-yellow-500"  : "placeholder-gray-600 focus:ring-yellow-500"}
             value={phoneNumber}
             onChange={(e) => setPhoneNumber(e.target.value)}
           />
