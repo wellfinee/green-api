@@ -1,3 +1,30 @@
+As part of the test task, it is required to develop a user interface for
+sending and receiving WhatsApp messages
+Time to complete the task: 5 days
+Requirements:
+1. It is required to develop a user interface for sending and receiving
+WhatsApp messages
+2. It is required to use the GREEN-API service https://green-api.com/
+3. It is required to implement sending and receiving only text messages
+4. It is required to take the appearance of the chat
+https://web.whatsapp.com/ as a prototype of the interface
+5. It is required to implement the interface as simple as possible with a minimum set of
+functions
+
+6. It is required to send messages using the method https://green-
+api.com/docs/api/sending/SendMessage/
+
+7. It is required to receive messages using the method https://green-
+api.com/docs/api/receiving/technology-http-api/
+
+8. It is required to use React technology
+Expected result:
+ The user goes to the chat site and enters their credentials from the GREEN-API system (idInstance, apiTokenInstance)
+ User enters recipient's phone number and creates a new chat
+ User writes a text message and sends it to the recipient in
+WhatsApp
+ Recipient replies to the message in WhatsApp messenger
+ User sees the recipient's reply in the chat
 🔥 Как развернуть сайт
 
 1️⃣ Установка необходимых программ
